@@ -1,5 +1,3 @@
--- wget -f 'https://pastebin.com/raw/3HhQgnWb' mana.lua
-
 local component = require("component")
 local sides = require("sides")
 local colors = require("colors")
@@ -32,7 +30,7 @@ function feedCoalIfNeeded(side)
 end
 
 -- main
-print("The Great Mana Pool Program v1")
+print("The Great Mana Pool Program v1.0")
 print("")
 
 while true do
